@@ -177,5 +177,36 @@ main {
 }
 
 @media screen and (max-width: 410px) {
+    .card, #card-thanks {
+        width: 320px;
+    }
 
+    .card-text, .card-thanks-txt p {
+        width: 260px;
+    }
+
+    .n1, .n2, .n3, .n4, .n5 {
+        padding: 12px 16px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .card, #card-thanks {
+        width: 260px;
+        padding: 1.6em;
+    }
+
+    .card-text, .card-thanks-txt p {
+        width: 200px;
+    }
+
+    .n1, .n2, .n3, .n4, .n5 {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    .card h1 {
+        font-size: 1.4em;
+    }
 }
