@@ -7,7 +7,7 @@
 
 ### Links
 
-- Solution URL: [Solution](https://mthsimao.github.io/interactive-rating-page/)
+- Solution URL: [Solution](https://mthsimao.github.io/interactive-rating/)
 
 ### Built with
 
