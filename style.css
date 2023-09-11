@@ -90,13 +90,13 @@ main {
 }
 
 #lista .n1:hover, .n2:hover, .n3:hover, .n4:hover, .n5:hover {
-    background-color: var(--Medium-Grey);
+    background-color: var(--Orange);
     transition: all .2s;
     cursor: pointer;
 }
 
 .selecionado {
-    background-color: var(--Orange);
+    background-color: var(--Medium-Grey);
 }
 
 .btn {
