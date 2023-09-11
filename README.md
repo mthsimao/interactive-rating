@@ -13,6 +13,7 @@
 
 - Semantic HTML5 markup
 - CSS Flexbox
+- JavaScript
 
 ## Author
 
