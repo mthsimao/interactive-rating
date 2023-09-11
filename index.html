@@ -12,7 +12,7 @@
 <body>
   <main>
     <!-- Rating state start -->
-    <div class="card">
+    <div class="card" id="card">
 
       <span class="card-img">
         <img src="images/icon-star.svg" alt="Icon star">
@@ -22,17 +22,16 @@
   
       <p class="card-text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
     
-      <ul class="buttons">
-        <li class="n1">1</li> 
-        <li class="n2">2</li> 
-        <li class="n3">3</li> 
-        <li class="n4">4</li> 
+      <ul id="lista">
+        <li class="n2">1</li>
+        <li class="n3">2</li>
+        <li class="n4">3</li>
+        <li class="n5">4</li>
         <li class="n5">5</li>
       </ul>
 
-      <input type="submt" onclick="submit()" class="btn" value="submit">
-    
-      <!-- Rating state end -->
+      <button id="submitBtn" class="btn">Submit</button>
+
     </div>
 
     <div id="card-thanks">

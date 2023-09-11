@@ -41,7 +41,7 @@ main {
     align-items: left;
     gap: 1.8em;
     padding: 2em;
-    width: 30%;
+    width: 450px;
     border-radius: 25px;
 }
 
@@ -55,6 +55,7 @@ main {
     text-align: left;
     color: var(--Medium-Grey);
     line-height: 1.4em;
+    width: 350px;
 }
 
 .card-img {
@@ -71,7 +72,7 @@ main {
     width: 64px;
 }
 
-.buttons {
+#lista {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -79,7 +80,7 @@ main {
 }
 
 
-.buttons .n1, .n2, .n3, .n4, .n5 {
+#lis#lista .n1, .n2, .n3, .n4, .n5 {
     background-color: hsl(211, 20%, 22%);
     display: flex;
     align-items: center;
@@ -88,13 +89,13 @@ main {
     border-radius: 50%;
 }
 
-.buttons .n1:hover, .n2:hover, .n3:hover, .n4:hover, .n5:hover {
+#lista .n1:hover, .n2:hover, .n3:hover, .n4:hover, .n5:hover {
     background-color: var(--Medium-Grey);
     transition: all .2s;
     cursor: pointer;
 }
 
-.selected {
+.selecionado {
     background-color: var(--Orange);
 }
 
@@ -136,7 +137,7 @@ main {
     align-items: center;
     gap: 2em;
     padding: 2em;
-    width: 30%;
+    width: 450px;
     border-radius: 25px;
 }
 
@@ -163,4 +164,18 @@ main {
     width: 360px;
     font-size: 1em;
     text-align: center;
+}
+
+@media screen and (max-width: 476px) {
+    .card, #card-thanks {
+        width: 380px;
+    }
+
+    .card-text, .card-thanks-txt p {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
 }
